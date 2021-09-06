@@ -5,9 +5,9 @@ export const Teste = () => {
   const [state, setstate] = useState(0)
 
   return (
-    <div>
-      <h1 onClick={() => setstate(state + 1)}>Teste {state}</h1>
+    <>
+      <span onClick={() => setstate(state + 1)}>Teste {state}</span>
       <Button variant="primary">Primary</Button>
-    </div>
+    </>
   );
 };
