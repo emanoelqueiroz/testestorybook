@@ -11,6 +11,6 @@
             ],
         },
     },
-    "include": ["src/**/*"],
+    "include": ["src"],
     "files": ["src/index.tsx"]
 }
