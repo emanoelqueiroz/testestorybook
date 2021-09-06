@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Teste } from '../components/Teste/index';
+import { Teste } from '../components/Teste';
 
 export default {
   title: 'Example/Teste',
