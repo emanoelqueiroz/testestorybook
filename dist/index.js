@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react");function t(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var r=t(e);exports.Teste=()=>{const[t,u]=e.useState(0);return r.default.createElement("h1",{onClick:()=>u(t+1)},"Teste ",t)};
